@@ -21,6 +21,8 @@ library(webshot2)
 tweet_screenshot(tweet_url("kdpsinghlab", "1450476300343316490"))
 ```
 
+Ask and you shall receive, especially if it's a fun idea for a useless package. 
+
 ## Installation
 
 Download the development version from [GitHub](https://github.com/) with:
