@@ -3,16 +3,7 @@
 
 # there
 
-<blockquote class="twitter-tweet">
-<p lang="en" dir="ltr">
-An R package function for when you're having a bad
-day:<br><br>there::there()
-</p>
-— Karandeep Singh (@kdpsinghlab)
-<a href="https://twitter.com/kdpsinghlab/status/1450476300343316490?ref_src=twsrc%5Etfw">October
-19, 2021</a>
-</blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
 
 ## Installation
 
@@ -30,9 +21,9 @@ How do you get a pick me up?
 ``` r
 library(there)
 there()
-#> [1] "'If at first you do not succeed, try, try again. Then quit. No use being a damn fool about it.' W.C. Fields"
+#> [1] "'When one door closes, another one opens'. Alexander Graham Bell"
 
 ## Or alternatively 
 there::there()
-#> [1] "Eagles may soar, but weasels do not get sucked into jet engines."
+#> [1] "'I love deadlines. I love the whooshing noise they make as they go by.' Douglas Adams"
 ```
