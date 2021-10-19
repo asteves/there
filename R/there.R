@@ -17,18 +17,19 @@ there <- function(){
 "Eagles may soar, but weasels do not get sucked into jet engines.",
 "'Be ice cream, or be nothing.' Ron Swanson",
 "'I regret nothing. The end.' Ron Swanson",
+"'Never half-ass two things, whole-ass one thing.' Ron Swanson",
 "'I believe in myself.'",
-"'Strong is fighting. It is hard, and it is painful, and it is everyday. It is what we have to do. And we can do it together. Buffy",
-"Stand firm for what you believe in, until and unless logic and experience prove you wrong. Daria",
-"Everything always goes wrong, and you just have to deal with it. Andy Dwyer",
-"Pain is always there because life is freaking painful, okay? But suffering is a choice. Pennsatucky",
-"We are all stories in the end. Just make it a good one, eh?. The Doctor",
-"Remember, if you cannot love yourself how the hell are you going to love somebody else? Can I get an Amen up in here? Ru Paul",
-"Through dangers untold and hardships unnumbered, I have found my way to the goblin city to take back the child you have stolen. For my will is as strong as yours and my kingdom is as great. You have no power over me. Sarah Williams",
-"Never forget what you are. The rest of the world will not. Wear it like armor, and it can never be used to hurt you. Tyrion Lannister",
-"No matter how the wind howls, the mountain cannot bow to it. Mulan"
+"'Strong is fighting. It is hard, and it is painful, and it is everyday. It is what we have to do. And we can do it together.' Buffy",
+"'Stand firm for what you believe in, until and unless logic and experience prove you wrong.' Daria",
+"'Everything always goes wrong, and you just have to deal with it.' Andy Dwyer",
+"'Pain is always there because life is freaking painful, okay? But suffering is a choice.' Pennsatucky",
+"'We are all stories in the end. Just make it a good one, eh?.' The Doctor",
+"'Remember, if you cannot love yourself how the hell are you going to love somebody else? Can I get an Amen up in here?' Ru Paul",
+"'Through dangers untold and hardships unnumbered, I have found my way to the goblin city to take back the child you have stolen. For my will is as strong as yours and my kingdom is as great. You have no power over me.' Sarah Williams",
+"'Never forget what you are. The rest of the world will not. Wear it like armor, and it can never be used to hurt you.' Tyrion Lannister",
+"'No matter how the wind howls, the mountain cannot bow to it.' Mulan"
 )
-  rng <- sample(1:20, 1, F)
+  rng <- sample(1:21, 1, F)
   return(quotes[rng])
 }
 
